@@ -127,7 +127,7 @@ titleDetectiveTitle: "§eDetective"
 titleDetectiveSubtitle: "Finde den Mörder heraus und töte ihn mit deinem Bogen"
 titleKillerTitle: "§cKiller"
 titleKillerSubtitle: "Töte alle Spieler"
-KillerGetSwordTime: "§eKiller bekommt sein Schwert in% Zeit% Sekunden!"
+KillerGetSwordTime: "§eKiller bekommt sein Schwert in %time% Sekunden!"
 KillerGetSword: "§eKiller haben bereits sein Schwert"
 titleVictoryKillerTitle: "§aKiller gewinnt!"
 titleVictoryCommonPeopleSubtitle: "§aCivilian and Detective Wins!"
@@ -139,7 +139,7 @@ scoreBoardTitle: "§eMurderMystery"
 waitTimeScoreBoard: |-
   Raummodus: §a%roomMode%
   Spieler: §a%playerNumber% / 16
-  §AStart Countdown: §l§e% Zeit%
+  §AStart Countdown: §l§e %time%
 waitScoreBoard: |-
   Raummodus: §a%roomMode%
   Spieler: §a%playerNumber% / 16
@@ -147,20 +147,20 @@ waitScoreBoard: |-
   Warten auf Spieler
 waitTimeBottom: |-
   §AAnzahl der Spieler:%playerNumber%
-  §AEs gibt:% Zeit% Sekunden zum Starten!
+  §AEs gibt: %time% Sekunden zum Starten!
 waitBottom: "§cWarten auf Spieler, es sind %playerNumber% Spieler im Raum"
 gameTimeScoreBoard: |-
   RoomMode: §a%roomMode%
   §L§aAktuelle Identität: §e%mode%
   §L§aAnzahl der Überlebenden: §e%playerNumber%
-  Verbleibende Zeit: §e% Zeit% §aseconds
+  Verbleibende Zeit: §e%time% §aseconds
 gameTimeBottom: |-
   §AIdentify: §e%mode%
-  §AEs gibt §e% Zeit% §Sekunde für das Schließen des Spiels
+  §AEs gibt §e%time% §Sekunde für das Schließen des Spiels
   Es gibt: §e%playerNumber% §Aplayer haben überlebt
 gameEffectCDScoreBoard: "§l§aKühlung beschleunigen: §e% Zeit% §aseconds"
-gameSwordCDScoreBoard: "§l§aFlyingSword-Kühlung: §e% Zeit% §aseconds"
-gameScanCDScoreBoard: "§l§aScanning-Kühlung: §e% Zeit% §aseconds"
+gameSwordCDScoreBoard: "§l§aFlyingSword-Kühlung: §e%time% §aseconds"
+gameScanCDScoreBoard: "§l§aScanning-Kühlung: §e%time% §aseconds"
 userMenuButton1: "§eJo zufällig in einen Raum eintreten"
 userMenuButton2: "§eQuit this room"
 userMenuButton3: "§eListe alle Räume auf"
